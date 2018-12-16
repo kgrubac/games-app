@@ -1,0 +1,415 @@
+body {
+	background-color: Gainsboro; 
+}
+
+.container {
+	margin:0% 10%;
+	background-color: Gainsboro; 
+	color: black;
+	text-align: center;
+}
+
+.heading img {
+ 	width:50%;
+ 	margin-bottom: 20px;
+ 	margin-left: 250px;
+}
+
+ .meni {
+	background-color: CornflowerBlue;
+	border:solid;
+}
+
+.tabovi p {
+	display: inline-flex;
+	text-align: center;
+	padding: 2.5px;
+	padding-right: 12px;
+	padding-left: 12px;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-style: Arial;
+	letter-spacing: 5px;
+}
+
+.tabovi ul {
+	margin: 0;
+	padding: 0;
+}
+
+.tabovi p:hover {
+	font-weight: bold;
+	text-shadow: 2px 2px 8px LightSeaGreen;
+	
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.login {
+	background-color: CornflowerBlue;
+	float: right;
+	width:25%;
+	width:320px;
+	border:solid;
+}
+
+.login h1 {
+	font-size: 20px;
+}
+
+.prijava {
+	background-color: silver;
+	margin: 5% 0 7% 0;
+	border: solid 2px;
+	padding-bottom: 5%;
+}
+
+.prijava1 {
+	margin: 50px 0 20px 20px;
+	float: left;
+	text-align: right;
+	font-size: 25px;
+}
+
+.prijava1 input[type=text], input[type="password"], input[type="submit"] {
+	border: solid 2px;
+}
+
+.prijava1 input[type="submit"] {
+	margin-top: 8px;
+	margin-bottom: 10px;
+	width: 80px;
+	height: 40px;
+	font-weight: bold;
+	background-color: MediumTurquoise;
+}  
+
+.prijava2 img {
+	width:250; 
+	height:250;
+	margin-left: 400px;
+}
+
+.prijava1 p4 {
+
+	color: red;
+	font-weight: bold;
+
+}
+
+.footer {
+	margin-top:40px;
+}
+
+.podaci {
+	float:left;
+	font-style: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	height:150px;
+}
+
+.social {
+	float: right;
+	height:150px;
+}
+
+.social img {
+
+	margin-left: 10px;
+	margin-top: 70px;
+	width:10%;
+	float: right;
+}
+
+.oautoru {
+	margin: 5% 0 7% 0;
+	border: solid 2px;
+	background-color: Silver ;
+}
+
+.opcenito {
+	width: 50%;
+	height: 50%;
+	margin:70px 0 0 50px;
+}
+.slika {
+	width: 50%;
+	height: 50%;
+	float: right;
+	margin: 80px 0 0 0;
+}
+
+.opcenito p {
+	text-align: left;
+	font-size: 30px;
+}
+
+.slika img {
+	width: 400px;
+	height: 300px;
+	border: solid 5px;
+	
+}
+
+.igre table {
+	border: solid;
+	margin: 5% 0 7% 0;
+	background-color: Gray;
+	text-align: center;
+	width: 100%;
+} 
+
+.igre th {
+	font-family: verdana;
+	font-size: 20px;
+	padding: 15px;
+	font-style: italic;
+	height: 100%;
+
+}
+
+.igre td {
+	border: solid 2px;
+	padding: 12px;
+	background-color: LightGray;
+
+}
+
+th#opis {
+	width:45%;
+
+}
+
+th#slika {
+	width:10%;
+}
+
+td#naziv {
+	font-size: 135%;
+}
+
+.kategorije p {
+	border:solid;
+	background-color: CornflowerBlue;
+	font-family: Timesnewroman;
+	font-size: 25px;
+}
+
+.kategorije select {
+	width: 50%;
+	padding-right: 15px;
+	border:solid 2px;
+}
+
+.kategorije input[type="submit"] {
+	margin-left: 50px;
+	background-color: CornflowerBlue;
+	border:solid 2px;
+	font-size: 15px;
+}
+
+.katbtn input[type="submit"] {
+
+	background-color: silver;
+	width: 100px;
+	margin: 0px auto 0px auto;
+}
+
+.kor table {
+	border: solid;
+	margin: 5% 0% 7% 0;
+	background-color: Gray;
+	text-align: center;
+	width:100%;
+} 
+
+.kor th {
+	font-family: verdana;
+	font-size: 20px;
+	padding: 15px;
+	font-style: italic;
+	border-bottom: solid;
+
+}
+
+.kor td {
+	padding: 12px;
+	background-color: LightGray;
+	border-bottom: solid;
+}
+
+.uvod {
+	margin: 5% 0 7% 0;
+	border: solid 2px;
+	background-color: Silver ;
+	text-align: center;
+	width:100%;
+	font-family: Timesnewroman;
+	font-size: 20px;
+}
+
+.mojepretplate {
+	border:solid 2px;
+	background-color: CornflowerBlue; 
+	}
+
+.mojepretplate p {
+	margin: 10px;
+	font-size: 20px;
+	font-family: Verdana;
+}
+
+.pretplate {
+	border-top:solid 2px;
+	background-color: silver;
+	}
+
+.admin {
+	margin: 5% 0 7% 0;
+	border: solid 2px;
+	background-color: silver;
+	font-family: Timesnewroman;
+	font-size: 20px;
+}
+
+.admin a:hover{
+	font-weight: bold;
+}
+
+.admin p1 {
+	font-weight: bold;
+}
+
+.admin h1 {
+	border: solid 2px;
+	margin-top: 0;
+	background-color: CornflowerBlue; 
+}
+
+.admin h3 {
+	border: solid 1px;
+	background-color: CornflowerBlue;
+}
+
+.novaigra {
+	margin: 5% 0 7% 0;
+	border: solid 2px;
+	background-color: silver;
+	font-family: Timesnewroman;
+	font-size: 20px;
+}
+
+.novaigra input[type="submit"] {
+	background-color: CornflowerBlue;
+}
+
+.novaigra input[type="text"], input[type="email"], input[type="password"] select {
+	border:solid 1px;
+}
+
+.novaigra h1 {
+	border: solid 2px;
+	margin-top: 0;
+	background-color: CornflowerBlue;
+}
+
+.azuriraj {
+	margin: 5% 0 7% 0;
+	border: solid 2px;
+	background-color: silver;
+	font-family: Timesnewroman;
+	font-size: 20px;
+}
+
+.azuriraj input[type="submit"] {
+	background-color: CornflowerBlue;
+}
+
+.azuriraj input[type="text"], input[type="email"], input[type="password"], select {
+	border:solid 1px;
+}
+
+.azuriraj h1 {
+	border: solid 2px;
+	margin-top: 0;
+	background-color: CornflowerBlue;
+} 
+
+.novakat {
+	margin: 5% 0 7% 0;
+	border: solid 2px;
+	background-color: silver;
+	font-family: Timesnewroman;
+	font-size: 20px;
+}
+
+.novakat input[type="submit"] {
+	background-color: CornflowerBlue;
+}
+
+.novakat input[type="text"], textarea{
+	border:solid 1px;
+}
+
+.novakat h1 {
+	border: solid 2px;
+	margin-top: 0;
+	background-color: CornflowerBlue;
+} 
+
+.moderator {
+	margin: 5% 0 7% 0;
+	border: solid 2px;
+	background-color: silver;
+	font-family: Timesnewroman;
+	font-size: 20px;
+}
+
+.moderator a:hover{
+	font-weight: bold;
+}
+
+.moderator p {
+	font-weight: bold;
+}
+
+.moderator h1 {
+	border: solid 2px;
+	margin-top: 0;
+	background-color: CornflowerBlue; 
+}
+
+.moderator h2 {
+	border: solid 1px;
+	background-color: CornflowerBlue;
+}
+
+.moderator input[type="submit"] {
+	margin-left: 10px;
+}
+
+.azurirajkat {
+	margin: 5% 0 7% 0;
+	border: solid 2px;
+	background-color: silver;
+	font-family: Timesnewroman;
+	font-size: 20px;
+}
+
+.azurirajkat h1 {
+	border: solid 2px;
+	margin-top: 0;
+	background-color: CornflowerBlue;
+} 
+
+.azurirajkat input[type="text"] {
+	border:solid 1px;
+}
+
+.azurirajkat input[type="submit"] {
+	background-color: CornflowerBlue;
+}
